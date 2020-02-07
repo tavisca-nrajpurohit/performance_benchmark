@@ -1,0 +1,6 @@
+http://localhost:8082/button/
+http://localhost:8082/dropdown/
+http://localhost:8082/input/
+http://localhost:8082/textarea/
+http://localhost:8082/checkbox/
+http://localhost:8082/all/
