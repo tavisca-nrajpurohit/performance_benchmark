@@ -15,6 +15,17 @@ These results will be on the following configurations -
 
     Simulated Throttling
     
+    
+## How to Run
+*clone repo
+*open any sample app in terminal (say 'native_elements')
+*cd html_files
+*http_server (to host the files on the server)
+*open the same sample app in another terminal (cd 'native_elements')
+* <edit the lighthouse command output and throttling config, then run the lighthouse-batch command>
+*You'll see the results in the output path specified.
+    
+    
 ## Command used
 ### No-Throttling
     lighthouse-batch -h -f ./componentsURL.txt -o ./lighthouse_results/no_throttling/r5/ --params "--emulated-form-factor=mobile --throttling-method=provided  --only-categories=performance" 
